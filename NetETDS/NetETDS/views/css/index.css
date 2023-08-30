@@ -1,0 +1,122 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+body {/*页面整体设置*/
+    margin: auto;
+    width: 100%;
+    position:static;
+}
+#contianer{/*抬头标题设置*/
+    height:100px;
+    text-align:center;
+    line-height:100px;
+    background:green;
+}
+#contianer img{
+    height:100px;
+    width:130px;
+    float:left;
+}
+#contianer h2{
+    font-family:"华文行楷";
+    font-size:50px;
+}
+
+/*主要内容设置*/
+#content{
+    width:90%;
+    height:700px;
+
+}
+/*左侧公告栏设置*/
+#content #floatleft{
+    width:60%;
+    height:100%;
+    background:#ffd800;
+    position:relative;
+    left:5%;
+}
+/*右侧整体设置*/
+#content #floatright{
+    width:39%;
+    height:100%;
+    background:#ff6a00;
+    position:relative;
+    left:65%;
+    top:-100%;
+}
+/*右侧图片设置*/
+#content #floatright #rightimg {
+        width: 100%;
+        height: 350px;
+        background: #0094ff;
+    }
+/*右侧登录框架设置*/
+#content #floatright ul{
+    width:30%;
+    height:350px;
+    background:#4800ff;
+}
+#content #floatright ul li {/*列表设置*/
+        height: 80px;
+        border: 3px solid black;
+        margin-bottom: 30px;
+        list-style: none;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 20px;
+    }
+ul  a {
+    text-decoration: none;
+    font-size:20px;
+    color:black;
+}
+
+/*登录输入框设置*/
+#content #floatright #login{
+    width:70%;
+    height:350px;
+    position:relative;
+    left:30%;
+    top:-50%;
+    background:#808080;
+}
+#content #floatright #login #box{
+    padding:20%;
+    text-align:center;
+    width:60%;
+    height:295px;
+
+}
+#content #floatright #login #box h3{
+    height:60px;
+    line-height:40px;
+    font-size:38px;
+
+}
+    #content #floatright #login #box input{
+        height:32px;
+        width:200px;
+        margin-bottom:20px;
+    }
+    #content #floatright #login #box button{
+        height:70px;
+        width:100px;
+        border-radius:10px;
+        font-size:20px;
+    }
+    #fooder {
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background: green;
+    }
+
+
+
+
+
+
